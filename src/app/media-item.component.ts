@@ -1,8 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'mw-media-item',
-  templateUrl: './media-item.component.html',
-  styleUrls: ['./media-item.component.css']
+  selector: "mw-media-item",
+  templateUrl: "./media-item.component.html",
+  styleUrls: ["./media-item.component.css"],
 })
-export class MediaItemComponent {}
+export class MediaItemComponent {
+  onDelete() {
+    console.log("deteled");
+  }
+}
